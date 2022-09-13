@@ -6,6 +6,7 @@ import com.example.demo.persistence.TaskStatus;
 import com.example.demo.persistence.entity.Task;
 import com.example.demo.service.dto.TaskInDTO;
 
+
 public class TaskInDTOToTask implements IMapper<TaskInDTO,Task> {
 
 	@Override
